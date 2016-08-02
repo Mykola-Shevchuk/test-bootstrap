@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.logo {
+	background-color: #eee;
+}
+
+.top-indent {
+	margin-top: 50px;
+}
+
+
+nav {
+
+}
+.main-nav {
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 5px 0 0 0;
+}
+
+.heading {
+	background-color: #eee;
+	overflow: hidden;
+	min-height: 400px;
+	position: relative;
+}
+
+.heading-form {
+	background-color: #fff;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.right-btn {
+	float: right;
+	clear: both;
+}
+
+.left-arrow {
+	position: absolute;
+    left: 0;
+    top: 0;
+    background: url('../img/arrow.png') center left no-repeat;
+    width: 64px;
+    height: 100%;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.right-arrow {
+	position: absolute;
+    right: 0;
+    top: 0;
+    background: url('../img/arrow.png') center left no-repeat;
+    width: 64px;
+    height: 100%;
+    transform: rotate(180deg);
+    cursor: pointer;
+     margin-right: 20px;
+}
+
+.article-img {
+	display: block;
+	margin: 0 auto;
+	max-width: 250px; 
+}
+
+.article footer {
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.article footer a {
+	text-decoration: underline; 
+}
+
+.article footer a:hover {
+	text-decoration: none; 
+}
+
+.main-article {
+	padding-left: 25px;
+	padding-right: 25px;
+	font-weight: bold;
+}
+
+.pagination-position {
+	margin: 0 auto;
+	max-width: 232px;
+	display: block;
+}
+
+.main-footer {
+	background-color: #eee;
+	overflow: hidden;
+	min-height: 300px;
+}
+
+.footer-line {
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #ffffff;
+	width: 2px;
+	min-height: 250px;
+	padding: 0;
+}
+
+.footer-form {
+	float: right;
+	margin-top: 30px;
+}
+
+.ta-style {
+	border-radius: 5px;
+	padding: 15px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.footer-indent {
+	padding-bottom: 20px;
+}
