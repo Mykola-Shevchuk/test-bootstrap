@@ -2,9 +2,21 @@
 	box-sizing: border-box;
 }
 
+.logo-container {
+	margin-top: 20px;
+}
 
-.logo {
-	background-color: #eee;
+.logo-img {
+	display: inline-block;
+}
+
+.logo-img img {
+	max-width: 64px;
+}
+
+.title-logo {
+	display: inline-block;
+	margin: 0 0 0 15px;
 }
 
 .top-indent {
@@ -12,9 +24,6 @@
 }
 
 
-nav {
-
-}
 .main-nav {
 	background-color: #eee;
 	padding: 10px;
@@ -24,7 +33,7 @@ nav {
 .heading {
 	background-color: #eee;
 	overflow: hidden;
-	min-height: 400px;
+	padding-bottom: 20px;
 	position: relative;
 }
 
@@ -38,7 +47,6 @@ nav {
 
 .right-btn {
 	float: right;
-	clear: both;
 }
 
 .left-arrow {
@@ -99,15 +107,16 @@ nav {
 .main-footer {
 	background-color: #eee;
 	overflow: hidden;
-	min-height: 300px;
+	
 }
 
 .footer-line {
 	border-left: 1px solid #bbbbbb;
 	border-right: 1px solid #ffffff;
 	width: 2px;
-	min-height: 250px;
+	min-height: 300px;
 	padding: 0;
+	float: right;
 }
 
 .footer-form {
@@ -117,11 +126,87 @@ nav {
 
 .ta-style {
 	border-radius: 5px;
-	padding: 15px;
-	float: right;
-	margin-bottom: 20px;
+    padding: 15px;
+    float: right;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
 }
 
 .footer-indent {
 	padding-bottom: 20px;
+}
+
+.footer-form-link {
+	float: left;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 15px;
+}
+
+.send-info {
+    width: 400px;
+}
+
+/* SLIDER */
+
+
+#slider {
+    max-height: 400px;
+    overflow: hidden;
+    border: 1px solid #272727;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    max-width: 720px;
+
+}
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 992px) {
+    .footer-line {
+    	display: none;
+    }
+
+    .heading h1{
+    	font-size: 25px; 
+    }
+
+    .left-arrow {
+    	margin-left: 2px;
+    }
+
+    .right-arrow {
+    	margin-right: 2px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   	
+	.main-nav li{
+		width: 100%;
+	} 
+
+    .footer-form {
+    	float: left;
+    }
+
+    .left-arrow {
+    	display: none;
+    }
+
+    .right-arrow {
+    	display: none;
+    }
 }
